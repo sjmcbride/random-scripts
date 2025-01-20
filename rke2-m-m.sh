@@ -18,6 +18,7 @@ cat << EOF > /etc/rancher/rke2/config.yaml
 token: c0k3z3r0-is-my-shared-secret
 tls-san:
 - rms.geekosoup.com
+EOF
 
 ls -l /etc/rancher/rke2/
 
