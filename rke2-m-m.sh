@@ -31,3 +31,5 @@ mkdir -p ~/.kube
 cat /etc/rancher/rke2/rke2.yaml >  ~/.kube/config
 chmod go-r ~/.kube/config
 
+kubectl get nodes
+
